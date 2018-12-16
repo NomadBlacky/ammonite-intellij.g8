@@ -74,7 +74,7 @@ fabric.properties
 # Ignores the whole .idea folder and all .iml files
 # See https://github.com/joeblau/gitignore.io/issues/186 and https://github.com/joeblau/gitignore.io/issues/360
 
-.idea/
+# .idea/
 
 # Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-249601023
 
@@ -102,3 +102,8 @@ project/plugins/project/
 *.log
 
 # End of https://www.gitignore.io/api/scala,intellij+all,sbt
+
+/.idea/
+!/.idea/scala_settings.xml
+src/main/g8/.idea/*
+!src/main/g8/.idea/scala_settings.xml
